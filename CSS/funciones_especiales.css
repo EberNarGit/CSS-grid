@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: 5px solid rgb(2, 85, 45);
+    background-color: rgb(25, 12, 12);
+    display: grid;
+    grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 250px);
+    grid-auto-rows: repeat(3, auto)
+}
+
+.item{
+    border: 5px solid rgb(7, 100, 74);
+    font-size: 2rem;
+    color: white;
+}
